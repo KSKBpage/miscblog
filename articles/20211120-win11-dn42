@@ -1,0 +1,14 @@
+Connect my Windows to DN42 network via a boarder router
+```
+netsh interface ipv4 set interface interface="Ethernet" dhcpstaticipcoexistence=enabled
+netsh interface ipv4 add address "Ethernet" 172.22.77.34/29
+route -p add 172.20.0.0/14 172.22.77.33
+route -p add 172.31.0.0/16 172.22.77.33
+route -p add 10.100.0.0/14 172.22.77.33
+route -p add 10.127.0.0/16 172.22.77.33
+
+
+netsh interface ipv6 set interface interface="Ethernet" dhcpstaticipcoexistence=enabled
+netsh interface ipv6 add address "Ethernet" fd28:cb8f:4c92::34/64
+route -p add fd00::/8 fd28:cb8f:4c92::33
+```
