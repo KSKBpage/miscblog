@@ -11,7 +11,7 @@ make gpu=1 CUDA=/usr/local/cuda  CXXCUDA=/usr/bin/g++ CCAP=7.5 all
 
 生成eth地址
 ```
-docker run -it --rm --gpus=all nvidia/opencl
+docker run -it --rm --gpus '"device=0,1"' nvidia/opencl
 apt update
 apt install -y git build-essential
 git clone https://github.com/johguse/profanity
