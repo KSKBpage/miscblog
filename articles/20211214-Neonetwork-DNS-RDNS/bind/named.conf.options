@@ -18,8 +18,6 @@ options {
         // If BIND logs error messages about the root key being expired,
         // you will need to update your keys.  See https://www.isc.org/bind-keys
         //========================================================================
-    //directory "/var/named";
-    //pid-file "/run/named/named.pid";
 
     listen-on port 53 { 10.127.111.233; 127.0.0.1; };
     listen-on-v6 port 53 { fd10:127:e00f:aca::233; ::1; };
@@ -42,8 +40,5 @@ options {
     dnssec-validation yes;
     dnssec-must-be-secure neo. no;
     dnssec-must-be-secure dn42. no;
-    // default-key "rndc-key";
-    // default-server 127.0.0.1;
-    // default-port 953;
 };
 controls {};

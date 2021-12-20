@@ -43,12 +43,56 @@ zone "f.0.0.e.7.2.1.0.0.1.d.f.ip6.arpa" IN {
 };
 
 zone "neo." IN {
-	type forward;
-	forward only;
-	forwarders { 10.127.255.54; fd10:127:53:53::;};
+  type forward;
+  forward only;
+  forwarders { 10.127.255.54; fd10:127:53:53::;};
 };
 
 zone "dn42." {
   type forward;
+  forward only;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};
+
+// NeoNetwork
+zone "127.10.in-addr.arpa" IN {
+  type forward;
+  forward only;
+  forwarders { 10.127.255.54; fd10:127:53:53::;};
+};
+zone "7.2.1.0.0.1.d.f.ip6.arpa" IN {
+  type forward;
+  forward only;
+  forwarders { 10.127.255.54; fd10:127:53:53::;};
+};
+// DN42 Network
+zone "10.in-addr.arpa" {
+  type forward;
+  forward only;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};
+zone "20.172.in-addr.arpa" {
+  type forward;
+  forward only;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};
+zone "21.172.in-addr.arpa" {
+  type forward;
+  forward only;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};
+zone "22.172.in-addr.arpa" {
+  type forward;
+  forward only;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};
+zone "23.172.in-addr.arpa" {
+  type forward;
+  forward only;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};
+ zone "d.f.ip6.arpa" {
+  type forward;
+  forward only;
   forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
 };
