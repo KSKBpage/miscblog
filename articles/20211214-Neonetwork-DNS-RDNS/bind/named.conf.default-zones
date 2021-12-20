@@ -1,0 +1,54 @@
+// prime the server with knowledge of the root servers
+zone "." {
+        type hint;
+        file "/usr/share/dns/root.hints";
+};
+
+// be authoritative for the localhost forward and reverse zones, and for
+// broadcast zones as per RFC 1912
+
+zone "localhost" {
+        type master;
+        file "/etc/bind/db.local";
+};
+
+zone "127.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.127";
+};
+
+zone "0.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.0";
+};
+
+zone "255.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.255";
+};
+
+zone "kskb.neo" {
+        type master;
+        file "/etc/bind/db.kskb.neo";
+};
+
+zone "111.127.10.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.10.127.111";
+};
+
+zone "f.0.0.e.7.2.1.0.0.1.d.f.ip6.arpa" IN {
+        type master;
+        file "/etc/bind/db.fd10.127.e00f";
+};
+
+zone "neo." IN {
+	type forward;
+	forward only;
+	forwarders { 10.127.255.54; fd10:127:53:53::;};
+};
+
+zone "dn42." {
+  type forward;
+  forwarders { 172.20.0.53; fd42:d42:d42:54::1; };
+};

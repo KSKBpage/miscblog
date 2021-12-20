@@ -1,0 +1,34 @@
+; SOA record
+$TTL    3600
+; name  class  type  nameserver        contact             (sn ref ret ex min)
+@       IN     SOA   ns.kskb.neo.  dn42.kskb.eu.org  (
+                                        4086       ; serial number
+                                        3600       ; refresh
+                                        180        ; update retry
+                                        86400      ; expiry
+                                        300        ; nxdomain ttl
+                                        )
+;
+; NS records
+@                         IN    NS       ns.kskb.neo.
+; A records or CNAME records
+ns                        IN    A        10.127.111.233
+hk                        IN    A        10.127.111.1
+jp                        IN    A        10.127.111.9
+sg                        IN    A        10.127.111.17
+usw                       IN    A        10.127.111.33
+ca                        IN    A        10.127.111.51
+ch                        IN    A        10.127.111.65
+nl                        IN    A        10.127.111.66
+au                        IN    A        10.127.111.81
+uae                       IN    A        10.127.111.89
+ns                        IN    AAAA     fd10:127:e00f:aca::233
+hk                        IN    AAAA     fd10:127:e00f:01::1
+jp                        IN    AAAA     fd10:127:e00f:09::1
+sg                        IN    AAAA     fd10:127:e00f:11::1
+usw                       IN    AAAA     fd10:127:e00f:21::1
+ca                        IN    AAAA     fd10:127:e00f:33::1
+ch                        IN    AAAA     fd10:127:e00f:41::1
+nl                        IN    AAAA     fd10:127:e00f:42::1
+au                        IN    AAAA     fd10:127:e00f:51::1
+uae                       IN    AAAA     fd10:127:e00f:59::1
