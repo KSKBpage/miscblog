@@ -5,7 +5,7 @@ cd ~
 git clone https://gitlab.nic.cz/labs/bird.git BIRD
 cd BIRD
 autoreconf
-./configure --prefix= --sysconfdir=/etc/bird
+./configure --prefix= --sysconfdir=/etc/bird --runstatedir=/var/run/bird
 make
 make install
 ```
