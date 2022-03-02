@@ -1,6 +1,7 @@
 ```
 ip6tables -t mangle -A PREROUTING -j CONNMARK --restore-mark 
 ip6tables -t mangle -A PREROUTING -i ens160 ! -d fe80::/10 -j MARK --set-mark 0x160
+# ip6tables -t mangle -A PREROUTING -i ens160 -d 2a0e:fd45:1000:ff80::1/128 -j MARK --set-mark 0x160
 ip6tables -t mangle -A PREROUTING -m mark --mark 0x160 -j CONNMARK --save-mark
 ip6tables -t mangle -A OUTPUT -j CONNMARK --restore-mark
 
