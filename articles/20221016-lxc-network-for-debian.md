@@ -2,6 +2,8 @@
 
 ## 容器預設網路
 
+### 主系統網路設定
+
 設定檔位置: `/etc/default/lxc-net`
 ```
 USE_LXC_BRIDGE="true"
@@ -17,6 +19,17 @@ LXC_DOMAIN=""
 # Honor system's dnsmasq configuration
 #LXC_DHCP_CONFILE=/etc/dnsmasq.conf
 ```
+
+### 容器內網路設定
+```
+auto eth0
+iface eth0 inet static
+    pre-up ip link set $IFACE down || true
+    pre-up ip addr flush $IFACE || true
+    address 192.168.21.3/24
+    gateway 192.168.21.1
+```
+
 
 ## 預設設定(for 新增的lxc)
 
@@ -40,7 +53,7 @@ lxc.apparmor.allow_nesting = 1
 ```
 lxc.cgroup.devices.allow = c 10:200 rwm
 lxc.cgroup2.devices.allow = c 10:200 rwm
-lxc.mount.entry = /dev/net/tun dev/net/tun none bind,create=file
+lxc.mount.entry = /dev/net/tun /dev/net/tun none bind,create=file
 ```
 
 ## 橋接外部設備
