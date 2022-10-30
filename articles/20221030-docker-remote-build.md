@@ -1,3 +1,4 @@
+使用 oracle arm 或是 raspbarry pi 進行 docker-arm 編譯
 ```
 export DOCKER_CLI_EXPERIMENTAL=enabled
 export DOCKER_BUILDKIT=1
