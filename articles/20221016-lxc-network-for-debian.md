@@ -49,6 +49,7 @@ lxc.apparmor.allow_nesting = 1
 設定檔位置: 
 * 全部新增的容器: `/etc/lxc/default.conf`
 * 單一容器: `/var/lib/lxc/[lxc名稱]/config`
+* Proxmox ve: `/etc/pve/lxc/$VM_ID.conf`
 
 ```
 lxc.cgroup.devices.allow = c 10:200 rwm
