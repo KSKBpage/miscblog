@@ -144,6 +144,7 @@ lxc.net.11.link = mvt-eth1-lxc1
 ```
 lxc.net.11.type = phys
 lxc.net.11.link = eth1
+lxc.net.11.flags = up
 ```
 
 ## 好用設定
