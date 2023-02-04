@@ -172,7 +172,7 @@ iface veth-kskbix inet6 static inherits ix-lan
 ```
 
 路徑: `/var/lib/lxc/poema-ix-evpn/config`  
-設定: 用 `type = phys` 把 `veth-kskbix-lxc` 這張網卡直接移到 lxc 裡面
+設定: `veth`兩張網卡類似於 L2 隧道的兩端。用 `type = phys` 把其中一張 `veth-kskbix-lxc` 這張網卡直接移到 lxc 裡面
 ```
 lxc.net.1.type = phys
 lxc.net.1.link = veth-kskbix-lxc
