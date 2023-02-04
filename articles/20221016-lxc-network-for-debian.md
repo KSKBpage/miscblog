@@ -1,5 +1,8 @@
 # Debian 底下的 lxc 和網路相關設定
 
+## lxc 容器使用教學
+https://github.com/KSKBpage/miscblog/blob/main/articles/20230204-lxc-setup.md
+
 ## 容器預設網路
 
 ### 主系統網路設定
@@ -57,7 +60,7 @@ lxc.cgroup2.devices.allow = c 10:200 rwm
 lxc.mount.entry = /dev/net/tun /dev/net/tun none bind,create=file
 ```
 
-## 橋接外部設備
+## 接入外部網路(不透過 NAT)
 
 ### 方法1: bridge
 
@@ -126,17 +129,51 @@ iface mvt-eth1-lxc1 inet manual
 
 設定檔位置: 
 * 單一容器: `/var/lib/lxc/[lxc名稱]/config`
-* 全部新增的容器: 不支援，此方法只支援單一容器
 
 ```
 lxc.net.11.type = phys
 lxc.net.11.link = mvt-eth1-lxc1
 ```
 
-## 新增 lxc
+### 方法3: 把網卡搬去容器裡面
+把 `eth1` 丟進容器裡面，主系統從此看不見這張網卡(關閉容器會回來)
+
+設定檔位置: 
+* 單一容器: `/var/lib/lxc/[lxc名稱]/config`
+
 ```
-lxc-create -n [lxc名稱] -t debian -- -r bullseye
-lxc-start [lxc名稱]
-lxc-stop [lxc名稱]
-lxc-destroy [lxc名稱]
+lxc.net.11.type = phys
+lxc.net.11.link = eth1
 ```
+
+## 好用設定
+
+### DNAT
+port forward 給容器
+```
+iptables -t nat -A PREROUTING -d 103.172.124.8 -p udp --dport 8220:8239 -j DNAT --to 192.168.21.2
+iptables -t nat -A PREROUTING -d 103.172.124.8 -p tcp --dport 8220:8239 -j DNAT --to 192.168.21.2
+```
+
+### VETH
+lxc 和 host 的點對點 L2連線。
+
+路徑: `/etc/network/interfaces`  
+設定: 新增兩張網卡 `veth-kskbix` 和 `veth-kskbix-lxc`
+```
+auto veth-kskbix
+iface veth-kskbix inet6 static inherits ix-lan
+    mtu 9000
+    accept_dad 0
+    pre-up ip link add ${IFACE} type veth peer name $IFACE-lxc
+    pre-up sysctl -w net.ipv6.conf.$IFACE.accept_dad=0
+    post-down ip link del $IFACE
+    post-down ip link del $IFACE-lxc
+```
+
+路徑: `/var/lib/lxc/poema-ix-evpn/config`  
+設定: 用 `type = phys` 把 `veth-kskbix-lxc` 這張網卡直接移到 lxc 裡面
+```
+lxc.net.1.type = phys
+lxc.net.1.link = veth-kskbix-lxc
+lxc.net.1.flags = up
