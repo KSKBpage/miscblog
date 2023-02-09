@@ -57,7 +57,13 @@ lxc.apparmor.allow_nesting = 1
 ```
 lxc.cgroup.devices.allow = c 10:200 rwm
 lxc.cgroup2.devices.allow = c 10:200 rwm
-lxc.mount.entry = /dev/net/tun /dev/net/tun none bind,create=file
+lxc.mount.entry = /dev/net/tun dev/net/tun none bind,create=file
+```
+
+**注意**
+```
+lxc.mount.entry = /dev/net/tun dev/net/tun none bind,create=file  #正確
+lxc.mount.entry = /dev/net/tun /dev/net/tun none bind,create=file #錯誤
 ```
 
 ## 接入外部網路(不透過 NAT)
