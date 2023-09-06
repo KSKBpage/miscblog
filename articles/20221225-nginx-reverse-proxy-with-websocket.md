@@ -17,7 +17,7 @@ server {
 # HTTPS server to handle requests
 server {
     listen 443 ssl;
-    listen [::]:443;
+    listen [::]:443 ssl;
 
     server_name mydomain.kskb.eu.org;
     ssl_certificate     '/etc/letsencrypt/live/mydomain.kskb.eu.org/fullchain.pem';
