@@ -1,6 +1,6 @@
 生成btc地址
 ```
-docker run -it --rm --gpus=all nvidia/cuda:11.2.0-cudnn8-devel-ubuntu20.04
+docker run -it --rm --gpus '"device=0,1"' nvidia/cuda:11.6.1-cudnn8-devel-ubuntu20.04
 
 apt update
 apt install -y git build-essential
@@ -31,8 +31,6 @@ tail -1 keys.txt | cut -c 3- > keys.pubkey
 ```
 docker run -it --rm --gpus '"device=0,1"' nvidia/opencl
 
-docker run -it --rm ubuntu:20.04
-
 apt update
 apt install -y git xz-utils curl sudo
 
@@ -47,12 +45,15 @@ su superuser
 
 cd ~
 bash
-
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
+. ~/.nix-profile/etc/profile.d/nix.sh
 
 git clone https://github.com/10gic/vanitygen-plusplus.git
 cd vanitygen-plusplus
 nix-build
 
-#Not finished
+# Error
+sudo ./result/bin/oclvanitygen++ -C TRX TFeedBBBB
+sudo ./result/bin/vanitygen++ -C TRX TFeedBBBB
+
 ```
