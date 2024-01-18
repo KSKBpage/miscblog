@@ -29,10 +29,11 @@ tail -1 keys.txt | cut -c 3- > keys.pubkey
 
 生成trx地址
 ```
-docker run -it --rm --gpus '"device=0,1"' nvidia/opencl
+docker run -it --rm --gpus '"device=0,1"' nvidia/cuda:12.0.0-devel-ubuntu20.04
 
+DEBIAN_FRONTEND=noninteractive
 apt update
-apt install -y git xz-utils curl sudo
+apt install -y git xz-utils curl sudo clinfo
 
 useradd superuser
 groupadd nixbld
@@ -41,16 +42,12 @@ usermod -aG nixbld superuser
 echo 'superuser ALL=(ALL) NOPASSWD:ALL' | sudo tee /etc/sudoers.d/superuser
 mkdir -p /home/superuser
 chown superuser -R /home/superuser
-su superuser
-
-cd ~
-bash
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 . ~/.nix-profile/etc/profile.d/nix.sh
 
 git clone https://github.com/10gic/vanitygen-plusplus.git
 cd vanitygen-plusplus
-nix-build
+/nix/store/smfmnz0ylx80wkbqbjibj7zcw4q668xp-nix-2.19.2/bin/nix-build
 
 # Error
 sudo ./result/bin/oclvanitygen++ -C TRX TFeedBBBB
