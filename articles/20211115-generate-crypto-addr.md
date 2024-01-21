@@ -28,6 +28,7 @@ tail -1 keys.txt | cut -c 3- > keys.pubkey
 ```
 
 生成trx地址
+Attemp 1
 ```
 docker run -it --rm --gpus '"device=0,1"' nvidia/cuda:12.0.0-devel-ubuntu20.04
 
@@ -52,5 +53,49 @@ cd vanitygen-plusplus
 # Error
 sudo ./result/bin/oclvanitygen++ -C TRX TFeedBBBB
 sudo ./result/bin/vanitygen++ -C TRX TFeedBBBB
+```
+
+Attemp 2
+```
+mkdir vanitygen
+docker run -it --rm -v $PWD/vanitygen:/vanitygen ubuntu:22.04
+docker run -it --rm -v $PWD/vanitygen:/vanitygen nvidia/cuda:12.0.0-cudnn8-runtime-ubuntu22.04
+
+DEBIAN_FRONTEND=noninteractive
+apt update
+apt install -y git xz-utils curl sudo clinfo nix-bin
+
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+
+cd /vanitygen
+git clone https://github.com/10gic/vanitygen-plusplus.git
+cd vanitygen-plusplus
+nix-build
+
+cp -Lr ./result ./result2
+# Error
+cd vanitygen/vanitygen-plusplus
+./result2/bin/oclvanitygen++ -C TRX TFeedBBBB
+./result2/bin/vanitygen++ -C TRX TFeedBBBB
+```
+
+Attemp 3
+```
+wget https://cdimage.ubuntu.com/ubuntu-base/releases/22.04.3/release/ubuntu-base-22.04.3-base-amd64.tar.gz
+mkdir ubuntu2204
+tar -xvzf ubuntu-base-22.04.3-base-amd64.tar.gz -C ubuntu2204/
+chroot ubuntu2204
+echo nameserver 1.1.1.1 > /etc/resolv.conf
+DEBIAN_FRONTEND=noninteractive
+apt update
+apt install -y git xz-utils curl sudo clinfo nix-bin
+
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+
+git clone https://github.com/10gic/vanitygen-plusplus.git
+cd vanitygen-plusplus
+nix-build
 
 ```
