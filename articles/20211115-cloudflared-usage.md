@@ -10,7 +10,8 @@ cloudflared tunnel route dns tw42 tw42.kskb.eu.org
 grep -Irn tw42 ~/.cloudflared/ #把內容複製到web server上面
 ```
 
-Run command on web server
+Run cloudflared on web server
 ```bash
-cloudflared --credentials-file /etc/cloudflared/tunnel.json --url http://127.0.0.1:$WEB_PORT tunnel run tw42
+# credentials.json 從PC複製過來
+cloudflared --credentials-file /etc/cloudflared/credentials.json --url http://127.0.0.1:$WEB_PORT tunnel run tw42
 ```
