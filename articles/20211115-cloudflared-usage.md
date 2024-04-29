@@ -1,6 +1,6 @@
 Download cloudflare binary from https://github.com/cloudflare/cloudflared/releases/ and move to /usr/bin
 
-Login and create tunnel on local machine
+Login and create tunnel on local PC
 ```bash
 # 把 tw42 改成自定義名字
 cloudflared login
