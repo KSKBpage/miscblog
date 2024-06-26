@@ -25,7 +25,7 @@ There is a discussing thread on Reddit to take a reference: https://www.reddit.c
 
 In my point of view, I support the notarization policy, which blocks malware from users. But Apple's notarization policy not only blocks malware but also blocks anything bad( like PC simulators on iOS and iPadOS ) to Apple, which is anti-competitive I think.  
 
-Please take a look at this anti-competitive anti-competitive notarization policy, many thanks.  
+Please take a look at this anti-competitive notarization policy of Apple, many thanks.  
 
 Best regards.  
 KSKB
