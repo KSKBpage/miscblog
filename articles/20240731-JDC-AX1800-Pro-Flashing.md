@@ -136,5 +136,6 @@ fdisk -l # Get the GPT GUID
 
 opkg update && opkg install sgdisk
 sgdisk -e -n 0:0:0 -c 0:storage -t 0:98101B32-BBE2-4BF2-A06E-2BB33D000C20 -p /dev/mmcblk0
+partprobe /dev/mmcblk0
 mkfs.ext4 -E nodiscard -F /dev/mmcblk0p27
 ```
