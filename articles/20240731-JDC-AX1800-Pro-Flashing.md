@@ -126,3 +126,15 @@ Back to PC, change the IP from `192.168.10.1/24` to `192.168.1.10/24`
 Hole reset button(near the power slot), and wait the led turn into blue
 
 Access `192.168.1.1` at browser, upload the frimware
+```
+QWRT-R24.05.05-ipq60xx-generic-jdcloud_ax1800-pro-squashfs-factory.bin
+```
+
+create partition mmcblk0p27 and format it
+```
+fdisk -l # Get the GPT GUID
+
+opkg update && opkg install sgdisk
+sgdisk -e -n 0:0:0 -c 0:storage -t 0:98101B32-BBE2-4BF2-A06E-2BB33D000C20 -p /dev/mmcblk0
+mkfs.ext4 -E nodiscard -F /dev/mmcblk0p27
+```
