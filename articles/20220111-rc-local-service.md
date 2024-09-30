@@ -4,9 +4,7 @@ cat <<EOT > /etc/systemd/system/rc-local.service
 Description=/etc/rc.local Compatibility
 ConditionPathExists=/etc/rc.local
 After=network.target
-Requires=network-online.target
 After=systemd-networkd-wait-online.service
-Requires=systemd-networkd-wait-online.service
 
 [Service]
 Type=forking
