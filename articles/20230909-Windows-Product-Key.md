@@ -92,119 +92,114 @@ Windows Server 2008 Datacenter | 7M67G-PC374-GR742-YH8V4-TCBY3
 Windows Server 2008 Datacenter without Hyper-V | 22XQ2-VRXRG-P8D42-K34TD-G3QQC
 Windows Web Server 2008 | WYR28-R7TFJ-3X2YQ-YCY4H-M249D
 Windows MultiPoint Server 2010 | 736RG-XDKJK-V34PF-BHK87-J6X3K
-Windows 7 Home Basic (Not Work) | MHHK6-24TM4-C2QHT-WW6Y2-QYQCD
-Windows 7 Home Premium (Not Work) | BDXQC-J343X-FT3VY-TRRMH-6DBXW
-Windows 7 Home Premium x86 (Not Work) | CTPDJ-2GG88-H9PMM-WGYXJ-37FFW
-Windows 7 Home Premium x64 (Not Work) | TDYPW-9HFRT-KTCK4-WH9MV-D8VWQ
-Windows 7 Professional | THY8B-98HJ7-3GMMJ-HYR3F-MWTV6
-Windows 7 Professional N | FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4
-Windows 7 Professional E | MRPKT-YTG23-K7D7T-X2JMM-QY7MG
-Windows 7 Enterprise | W82YF-2Q76Y-63HXB-FGJG9-GF7QX
-Windows 7 Enterprise N | 33PXH-7Y6KF-2VJC9-XBBR8-HVTHH
-Windows 7 Enterprise E | YDRBP-3D83W-TY26F-D46B2-XCKRJ
-Windows 7 Embedded POSReady | C29WB-22CC8-VJ326-GHFJW-H9DH4
-Windows 7 Embedded Thin PC | YBYF6-BHCR3-JPKRB-CDW7B-F9BK4
-Windows 7 Embedded Standard | 73KQT-CD9G6-K7TQG-66MRP-CQ22C
-Windows Server 2008 R2 Standard | XGY72-BRBBT-FF8MH-2GG8H-W7KCW
-Windows Server 2008 R2 HPC edition | YC6KT-GKW9T-YTKYR-T4X34-R7VHC
-Windows Server 2008 R2 for Itanium Systems | TT8MH-CG224-D3D7Q-498W2-9QCTX
-Windows Server 2008 R2 Enterprise | GT63C-RJFQ3-4GMB6-BRFB9-CB83V
-Windows Server 2008 R2 Datacenter | 489J6-VHDMP-X63PK-3K798-CPX3Y
-Windows Server 2008 R2 Web | 74YFP-3QFB3-KQT8W-PMXWJ-7M648
-Windows 8 Core | 6TPJF-RBVHG-WBW2R-86QPH-6RTM4
-Windows 8 Core N | BN3D2-R7TKB-3YPBD-8DRP2-27GG4
-Windows 8 Core ARM | 8N2M2-HWPGY-7PGT9-HGDD8-GVGGY
-Windows 8 Core Country Specific | DXHJF-N9KQX-MFPVR-GHGQK-Y7RKV
-Windows 8 Core Single Language | 4K36P-JN4VD-GDC6V-KDT89-DYFKP
-Windows 8 Professional | 2WN2H-YGCQR-KFX6K-CD6TF-84YXQ
-Windows 8 Professional N | NG4HW-VH26C-733KW-K6F98-J8CK4
-Windows 8 Professional WMC | XCVCF-2NXM9-723PB-MHCB7-2RYQQ
-Windows 8 Enterprise | GNBB8-YVD74-QJHX6-27H4K-8QHDG
-Windows 8 Enterprise N | 32JNW-9KQ84-P47T8-D8GGY-CWCK7
-Windows 8 Embedded Industry | JMNMF-RHW7P-DMY6X-RF3DR-X2BQT
-Windows 8 Embedded Industry Professional | JVPDN-TBWJW-PD94V-QYKJ2-KWYQM
-Windows 8 Embedded Industry Enterprise | RYXVT-BNQG7-VD29F-DBMRY-HT73M
-Windows Server 2012 | NKB3R-R2F8T-3XCDP-7Q2KW-XWYQ2
-Windows Server 2012 N | BN3D2-R7TKB-3YPBD-8DRP2-27GG4
-Windows Server 2012 Single Language | 8N2M2-HWPGY-7PGT9-HGDD8-GVGGY
-Windows Server 2012 Country Specific | 2WN2H-YGCQR-KFX6K-CD6TF-84YXQ
-Windows Server 2012 Server Standard | 4K36P-JN4VD-GDC6V-KDT89-DYFKP
-Windows Server 2012 Datacenter | XC9B7-NBPP2-83J2H-RHMBY-92BT4
-Windows Server 2012 MultiPoint Standard | 48HP8-DN98B-MYWDG-T2DCC-8W83P
-Windows Server 2012 MultiPoint Premium | HM7DN-YVMH3-46JC3-XYTG7-CYQJJ
-Windows 8.1 Core | XNH6W-2V9GX-RGJ4K-Y8X6F-QGJ2G
-Windows 8.1 Core N | M9Q9P-WNJJT-6PXPY-DWX8H-6XWKK
-Windows 8.1 Core ARM64 | 7B9N3-D94CG-YTVHR-QBPX3-RJP64
-Windows 8.1 Core Single Language | XYTND-K6QKT-K2MRH-66RTM-43JKP
-Windows 8.1 Core Country Specific | BB6NG-PQ82V-VRDPW-8XVD2-V8P66
-Windows 8.1 Core Connected (Bing) | NCTT7-2RGK8-WMHRF-RY7YQ-JTXG3
-Windows 8.1 Core Connected N | 3PY8R-QHNP9-W7XQD-G6DPH-3J2C9
-Windows 8.1 Core Connected Single Language | Q6HTR-N24GM-PMJFP-69CD8-2GXKR
-Windows 8.1 Core Connected Country Specific | KF37N-VDV38-GRRTV-XH8X6-6F3BB
-Windows 8.1 Professional Preview | R962J-37N87-9VVK2-WJ74P-XTMHR
-Windows 8.1 Professional | MTWNQ-CKDHJ-3HXW9-Q2PFX-WB2HQ
-Windows 8.1 Professional N | GCRJD-8NW9H-F2CDX-CCM8D-9D6T9
-Windows 8.1 Professional WMC | HMCNV-VVBFX-7HMBH-CTY9B-B4FXY
-Windows 8.1 Professional Student | 789NJ-TQK6T-6XTH8-J39CJ-J8D3P
-Windows 8.1 Professional Student N | MX3RK-9HNGX-K3QKC-6PJ3F-W8D7B
-Windows 8.1 Enterprise | TNFGH-2R6PB-8XM3K-QYHX2-J4296
-Windows 8.1 Enterprise N | MHF9N-XY6XB-WVXMC-BTDCT-MKKG7
-Windows 8.1 Embedded Industry Professional | TT4HM-HN7YT-62K67-RGRQJ-JFFXW
-Windows 8.1 Embedded Industry Enterprise | NMMPB-38DD4-R2823-62W8D-VXKJB
-Windows 8.1 Embedded Industry A | FNFKF-PWTVT-9RC8H-32HB2-JB34X
-Windows Server 2012 R2 Server Standard | VHXM3-NR6FT-RY6RT-CK882-KW2CJ
-Windows Server 2012 R2 Datacenter | D2N9P-3P6X9-2R39C-7RTCD-MDVJX
-Windows Server 2012 R2 Essentials | W3GGN-FT8W3-Y4M27-J84CP-Q3VJ9
-Windows Server 2012 R2 CloudStorage | KNC87-3J2TX-XB4WP-VCPJV-M4FWM
-Windows 10 Home / Core | 3NPTF-33KPT-GGBPR-YX76B-39KDD
-Windows 10 Home / Core N | TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
-Windows 10 Home / Core Single Language | 3KHY7-WNT83-DGQKR-F7HPR-844BM
-Windows 10 Home / Core Country Specific | 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
-Windows 10 S (Lean) | PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
-Windows 10 Professional | NBTWJ-3DR69-3C4V8-C26MC-GQ9M6
-Windows 10 Professional N | W269N-WFGWX-YVC9B-4J6C9-T83GX
-Windows 10 Pro Workstations | MH37W-N47XK-V7XM9-C7227-GCQG9
-Windows 10 Pro Workstations N | NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
-Windows 10 Professional Education | 9FNHH-K3HBT-3W4TD-6383H-6XYWF
-Windows 10 Professional Education N | 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
-Windows 10 Education | YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
-Windows 10 Education N | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-Windows 10 Enterprise | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
-Windows 10 Enterprise N | NPPR9-FWDCX-D2C8J-H872K-2YT43
-Windows 10 Enterprise G | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-Windows 10 Enterprise G N | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
-Windows 10 Enterprise S | 44RPN-FTY23-9VTTB-MP9BX-T84FV
-Windows 10 Enterprise S N | H76BG-QBNM7-73XY9-V6W2T-684BJ
-Windows 10 Enterprise for Virtual Desktops / Windows 10 Multi-session (RDSH) | X4R4B-NV6WD-PKTVK-F98BH-4C2J8
-Windows 10 Cloud Edition | CPWHC-NT2C7-VYW78-DHDB2-PG3GK
-Windows 10 Cloud Edition N | 37D7F-N49CB-WQR8W-TBJ73-FM8RX
-Windows 10 Remote Server | 6XN7V-PCBDC-BDBRH-8DQY7-G6R44
-Windows 10 Enterprise 2015 LTSB | 7NBT4-WGBQX-MP4H7-QXFF8-YP3KX
-Windows 10 Enterprise 2015 LTSB N | WNMTR-4C88C-JK8YV-HQ7T2-76DF9
-Windows 10 Enterprise 2016 LTSB | 2F77B-TNFGY-69QQF-B8YKP-D69T
-Windows 10 Enterprise 2016 LTSB N | DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
-Windows 10 Enterprise LTSC 2019 | QFFDN-GRT3P-VKWWX-X7T3R-8B639
-Windows 10 Enterprise N LTSC 2019 | M7XTQ-FN8P6-TTKYV-9D4CC-J462D
-Windows Server Standard version 1709 | 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
-Windows Server Datacenter version 1709 | DPCNP-XQFKJ-BJF7R-FRC8D-GF6G4
-Windows Server 2016 Standard | 6Y6KB-N82V8-D8CQV-23MJW-BWTG6
-Windows Server 2016 ARM64 | WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
-Windows Server 2016 Datacenter | K9FYF-G6NCK-73M32-XMVPY-F9DRR
-Windows Server 2016 Essentials | CB7KF-BWN84-R7R2Y-793K2-8XDDG
-Windows Server 2016 Azure Core | JCKRF-N37P4-C2D82-9YXRT-4M63B
-Windows Server 2016 Cloud Storage | VP34G-4NPPG-79JTQ-864T4-R3MQX
-Windows Server 2016 Standard version 1803 | QN4C6-GBJD2-FB422-GHWJK-GJG2R
-Windows Server 2016 Datacenter  version 1803 | PTXN8-JFHJM-4WC78-MPCBR-9W4KR
-Windows Server 2019 Standard | 2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG
-Windows Server 2019 ARM64 | N69G4-B89J2-4G8F4-WWYCC-J464C
-Windows Server 2019 Datacenter | GRFBW-QNDC4-6QBHG-CCK3B-2PR88
-Windows Server 2019 Essentials | WMDGN-G9PQG-XVVXX-R3X43-63DFG
-Windows Server 2019 Azure Core | WVDHN-86M7X-466P6-VHXV7-YY726
-Windows Server Standard version 2019 1809 | FDNH6-VW9RW-BXPJ7-4XTYG-239TB
-Windows Server Datacenter version 2019 1809 | N2KJX-J94YW-TQVFB-DG9YT-724CC
-Windows Server 2022 Standard | 6NMRW-2C8FM-D24W7-TQWMY-CWH2D
-Windows Server 2022 Standard Acor | VDYBN-27WPP-V4HQT-9VMD4-VMK7H
-Windows Server 2022 DataCenter | 67KN8-4FYJW-2487Q-MQ2J7-4C4RG
-Windows Server 2022 DataCenter Acor | WX4NM-KYWYW-QJJR4-XV3QB-6VM33
-Windows Server 2022 Azure Cor | QFND9-D3Y9C-J3KKY-6RPVP-2DPYV
-Windows Server 2022 Azure Datacenter | FD8RN-MHFGM-VM69M-H9D67-94WFQ
+Windows 7 Professional | FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4
+Windows 7 Professional N | MRPKT-YTG23-K7D7T-X2JMM-QY7MG
+Windows 7 Professional E | W82YF-2Q76Y-63HXB-FGJG9-GF7QX
+Windows 7 Enterprise | 33PXH-7Y6KF-2VJC9-XBBR8-HVTHH
+Windows 7 Enterprise N | YDRBP-3D83W-TY26F-D46B2-XCKRJ
+Windows 7 Enterprise E | C29WB-22CC8-VJ326-GHFJW-H9DH4
+Windows 7 Embedded POSReady | YBYF6-BHCR3-JPKRB-CDW7B-F9BK4
+Windows 7 Embedded Thin PC | 73KQT-CD9G6-K7TQG-66MRP-CQ22C
+Windows 7 Embedded Standard | XGY72-BRBBT-FF8MH-2GG8H-W7KCW
+Windows Server 2008 R2 Standard | YC6KT-GKW9T-YTKYR-T4X34-R7VHC
+Windows Server 2008 R2 HPC edition | TT8MH-CG224-D3D7Q-498W2-9QCTX
+Windows Server 2008 R2 for Itanium Systems | GT63C-RJFQ3-4GMB6-BRFB9-CB83V
+Windows Server 2008 R2 Enterprise | 489J6-VHDMP-X63PK-3K798-CPX3Y
+Windows Server 2008 R2 Datacenter | 74YFP-3QFB3-KQT8W-PMXWJ-7M648
+Windows Server 2008 R2 Web | 6TPJF-RBVHG-WBW2R-86QPH-6RTM4
+Windows 8 Core | BN3D2-R7TKB-3YPBD-8DRP2-27GG4
+Windows 8 Core N | 8N2M2-HWPGY-7PGT9-HGDD8-GVGGY
+Windows 8 Core ARM | DXHJF-N9KQX-MFPVR-GHGQK-Y7RKV
+Windows 8 Core Country Specific | 4K36P-JN4VD-GDC6V-KDT89-DYFKP
+Windows 8 Core Single Language | 2WN2H-YGCQR-KFX6K-CD6TF-84YXQ
+Windows 8 Professional | NG4HW-VH26C-733KW-K6F98-J8CK4
+Windows 8 Professional N | XCVCF-2NXM9-723PB-MHCB7-2RYQQ
+Windows 8 Professional WMC | GNBB8-YVD74-QJHX6-27H4K-8QHDG
+Windows 8 Enterprise | 32JNW-9KQ84-P47T8-D8GGY-CWCK7
+Windows 8 Enterprise N | JMNMF-RHW7P-DMY6X-RF3DR-X2BQT
+Windows 8 Embedded Industry | JVPDN-TBWJW-PD94V-QYKJ2-KWYQM
+Windows 8 Embedded Industry Professional | RYXVT-BNQG7-VD29F-DBMRY-HT73M
+Windows 8 Embedded Industry Enterprise | NKB3R-R2F8T-3XCDP-7Q2KW-XWYQ2
+Windows Server 2012 | BN3D2-R7TKB-3YPBD-8DRP2-27GG4
+Windows Server 2012 N | 8N2M2-HWPGY-7PGT9-HGDD8-GVGGY
+Windows Server 2012 Single Language | 2WN2H-YGCQR-KFX6K-CD6TF-84YXQ
+Windows Server 2012 Country Specific | 4K36P-JN4VD-GDC6V-KDT89-DYFKP
+Windows Server 2012 Server Standard | XC9B7-NBPP2-83J2H-RHMBY-92BT4
+Windows Server 2012 Datacenter | 48HP8-DN98B-MYWDG-T2DCC-8W83P
+Windows Server 2012 MultiPoint Standard | HM7DN-YVMH3-46JC3-XYTG7-CYQJJ
+Windows Server 2012 MultiPoint Premium | XNH6W-2V9GX-RGJ4K-Y8X6F-QGJ2G
+Windows 8.1 Core | M9Q9P-WNJJT-6PXPY-DWX8H-6XWKK
+Windows 8.1 Core N | 7B9N3-D94CG-YTVHR-QBPX3-RJP64
+Windows 8.1 Core ARM64 | XYTND-K6QKT-K2MRH-66RTM-43JKP
+Windows 8.1 Core Single Language | BB6NG-PQ82V-VRDPW-8XVD2-V8P66
+Windows 8.1 Core Country Specific | NCTT7-2RGK8-WMHRF-RY7YQ-JTXG3
+Windows 8.1 Core Connected (Bing) | 3PY8R-QHNP9-W7XQD-G6DPH-3J2C9
+Windows 8.1 Core Connected N | Q6HTR-N24GM-PMJFP-69CD8-2GXKR
+Windows 8.1 Core Connected Single Language | KF37N-VDV38-GRRTV-XH8X6-6F3BB
+Windows 8.1 Core Connected Country Specific | R962J-37N87-9VVK2-WJ74P-XTMHR
+Windows 8.1 Professional Preview | MTWNQ-CKDHJ-3HXW9-Q2PFX-WB2HQ
+Windows 8.1 Professional | GCRJD-8NW9H-F2CDX-CCM8D-9D6T9
+Windows 8.1 Professional N | HMCNV-VVBFX-7HMBH-CTY9B-B4FXY
+Windows 8.1 Professional WMC | 789NJ-TQK6T-6XTH8-J39CJ-J8D3P
+Windows 8.1 Professional Student | MX3RK-9HNGX-K3QKC-6PJ3F-W8D7B
+Windows 8.1 Professional Student N | TNFGH-2R6PB-8XM3K-QYHX2-J4296
+Windows 8.1 Enterprise | MHF9N-XY6XB-WVXMC-BTDCT-MKKG7
+Windows 8.1 Enterprise N | TT4HM-HN7YT-62K67-RGRQJ-JFFXW
+Windows 8.1 Embedded Industry Professional | NMMPB-38DD4-R2823-62W8D-VXKJB
+Windows 8.1 Embedded Industry Enterprise | FNFKF-PWTVT-9RC8H-32HB2-JB34X
+Windows 8.1 Embedded Industry A | VHXM3-NR6FT-RY6RT-CK882-KW2CJ
+Windows Server 2012 R2 Server Standard | D2N9P-3P6X9-2R39C-7RTCD-MDVJX
+Windows Server 2012 R2 Datacenter | W3GGN-FT8W3-Y4M27-J84CP-Q3VJ9
+Windows Server 2012 R2 Essentials | KNC87-3J2TX-XB4WP-VCPJV-M4FWM
+Windows Server 2012 R2 CloudStorage | 3NPTF-33KPT-GGBPR-YX76B-39KDD
+Windows 10 Home / Core | TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+Windows 10 Home / Core N | 3KHY7-WNT83-DGQKR-F7HPR-844BM
+Windows 10 Home / Core Single Language | 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+Windows 10 Home / Core Country Specific | PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+Windows 10 S (Lean) | NBTWJ-3DR69-3C4V8-C26MC-GQ9M6
+Windows 10 Professional | W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 10 Professional N | MH37W-N47XK-V7XM9-C7227-GCQG9
+Windows 10 Pro Workstations | NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+Windows 10 Pro Workstations N | 9FNHH-K3HBT-3W4TD-6383H-6XYWF
+Windows 10 Professional Education | 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
+Windows 10 Professional Education N | YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
+Windows 10 Education | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Windows 10 Education N | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Windows 10 Enterprise | NPPR9-FWDCX-D2C8J-H872K-2YT43
+Windows 10 Enterprise N | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+Windows 10 Enterprise G | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
+Windows 10 Enterprise G N | 44RPN-FTY23-9VTTB-MP9BX-T84FV
+Windows 10 Enterprise S | H76BG-QBNM7-73XY9-V6W2T-684BJ
+Windows 10 Enterprise S N | X4R4B-NV6WD-PKTVK-F98BH-4C2J8
+Windows 10 Enterprise for Virtual Desktops / Windows 10 Multi-session (RDSH) | CPWHC-NT2C7-VYW78-DHDB2-PG3GK
+Windows 10 Cloud Edition | 37D7F-N49CB-WQR8W-TBJ73-FM8RX
+Windows 10 Cloud Edition N | 6XN7V-PCBDC-BDBRH-8DQY7-G6R44
+Windows 10 Remote Server | 7NBT4-WGBQX-MP4H7-QXFF8-YP3KX
+Windows 10 Enterprise 2015 LTSB | WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+Windows 10 Enterprise 2015 LTSB N | 2F77B-TNFGY-69QQF-B8YKP-D69T
+Windows 10 Enterprise 2016 LTSB | DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+Windows 10 Enterprise 2016 LTSB N | QFFDN-GRT3P-VKWWX-X7T3R-8B639
+Windows 10 Enterprise LTSC 2019 | M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+Windows 10 Enterprise N LTSC 2019 | 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+Windows Server Standard version 1709 | DPCNP-XQFKJ-BJF7R-FRC8D-GF6G4
+Windows Server Datacenter version 1709 | 6Y6KB-N82V8-D8CQV-23MJW-BWTG6
+Windows Server 2016 Standard | WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
+Windows Server 2016 ARM64 | K9FYF-G6NCK-73M32-XMVPY-F9DRR
+Windows Server 2016 Datacenter | CB7KF-BWN84-R7R2Y-793K2-8XDDG
+Windows Server 2016 Essentials | JCKRF-N37P4-C2D82-9YXRT-4M63B
+Windows Server 2016 Azure Core | VP34G-4NPPG-79JTQ-864T4-R3MQX
+Windows Server 2016 Cloud Storage | QN4C6-GBJD2-FB422-GHWJK-GJG2R
+Windows Server 2016 Standard version 1803 | PTXN8-JFHJM-4WC78-MPCBR-9W4KR
+Windows Server 2016 Datacenter  version 1803 | 2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG
+Windows Server 2019 Standard | N69G4-B89J2-4G8F4-WWYCC-J464C
+Windows Server 2019 ARM64 | GRFBW-QNDC4-6QBHG-CCK3B-2PR88
+Windows Server 2019 Datacenter | WMDGN-G9PQG-XVVXX-R3X43-63DFG
+Windows Server 2019 Essentials | WVDHN-86M7X-466P6-VHXV7-YY726
+Windows Server 2019 Azure Core | FDNH6-VW9RW-BXPJ7-4XTYG-239TB
+Windows Server Standard version 2019 1809 | N2KJX-J94YW-TQVFB-DG9YT-724CC
+Windows Server Datacenter version 2019 1809 | 6NMRW-2C8FM-D24W7-TQWMY-CWH2D
+Windows Server 2022 Standard | VDYBN-27WPP-V4HQT-9VMD4-VMK7H
+Windows Server 2022 Standard Acor | 67KN8-4FYJW-2487Q-MQ2J7-4C4RG
+Windows Server 2022 DataCenter | WX4NM-KYWYW-QJJR4-XV3QB-6VM33
+Windows Server 2022 DataCenter Acor | QFND9-D3Y9C-J3KKY-6RPVP-2DPYV
+Windows Server 2022 Azure Cor | FD8RN-MHFGM-VM69M-H9D67-94WFQ
