@@ -1,7 +1,6 @@
 Quick generate keys
 
 ```bash
-export OVPN_CLIENT_NAME=haraguroicha
 export OVPN_SERVER_NAME=tpe.kskb.stuin
 export EASYRSA_CA_EXPIRE=365000
 export EASYRSA_CERT_EXPIRE=365000
