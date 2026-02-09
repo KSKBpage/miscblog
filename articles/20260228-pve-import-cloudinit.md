@@ -1,3 +1,4 @@
+## Debian
 ```bash
 # Debian
 ARCH=amd64
@@ -17,7 +18,10 @@ qm resize 900$VER virtio0 8G
 # Enable 3D accelration
 # qm set 900$VER --args "-device virtio-vga-gl,venus=true,blob=true,hostmem=4G -display egl-headless,rendernode=/dev/dri/renderD128"
 qm template 900$VER
+```
 
+## Ubuntu
+```bash
 # Ubuntu
 ARCH=amd64
 VER=24
@@ -34,6 +38,6 @@ qm set 900$VER --boot c --bootdisk virtio0
 qm set 900$VER --agent enabled=1
 qm resize 900$VER virtio0 8G
 # Enable 3D accelration
-# qm set 900$VER --args "-device virtio-vga-gl,venus=true,blob=true,hostmem=24 -display egl-headless,rendernode=/dev/dri/renderD128"
+# qm set 900$VER --args "-device virtio-vga-gl,venus=true,blob=true,hostmem=4G -display egl-headless,rendernode=/dev/dri/renderD128"
 qm template 900$VER
 ```
