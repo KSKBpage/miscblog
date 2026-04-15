@@ -1,10 +1,12 @@
 ## Debian
 ```bash
+apt install libguestfs-tools -y
 # Debian
 ARCH=amd64
 VER=13
 CODE=trixie
 wget https://cloud.debian.org/images/cloud/$CODE-backports/daily/latest/debian-$VER-backports-generic-$ARCH-daily.qcow2
+virt-customize -a debian-$VER-backports-generic-$ARCH-daily.qcow2 --install qemu-guest-agent
 qm create 900$VER --name "Cloudinit-D$VER" --memory 2048 --balloon 0 --cores 1 --net0 virtio,bridge=vmbr0 --bios ovmf --machine q35 --ostype l26
 qm importdisk 900$VER debian-$VER-backports-generic-amd64-daily.qcow2 local-lvm
 qm set 900$VER --virtio0 local-lvm:vm-900$VER-disk-0
@@ -22,11 +24,13 @@ qm template 900$VER
 
 ## Ubuntu
 ```bash
+apt install libguestfs-tools -y
 # Ubuntu
 ARCH=amd64
 VER=24
 CODE=noble
 wget https://cloud-images.ubuntu.com/$CODE/current/$CODE-server-cloudimg-$ARCH.img
+virt-customize -a $CODE-server-cloudimg-$ARCH.img --install qemu-guest-agent
 qm create 900$VER --name "Cloudinit-U$VER" --memory 2048 --balloon 0 --cores 1 --net0 virtio,bridge=vmbr0 --bios ovmf --machine q35 --ostype l26
 qm importdisk 900$VER $CODE-server-cloudimg-$ARCH.img local-lvm
 qm set 900$VER --virtio0 local-lvm:vm-900$VER-disk-0
