@@ -33,7 +33,7 @@ qm template 900$VER
 apt install libguestfs-tools -y
 # Ubuntu
 ARCH=amd64
-VER=24
+VER=26
 CODE=noble
 wget https://cloud-images.ubuntu.com/$CODE/current/$CODE-server-cloudimg-$ARCH.img
 virt-customize -a $CODE-server-cloudimg-$ARCH.img --install qemu-guest-agent
