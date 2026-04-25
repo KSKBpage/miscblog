@@ -1,3 +1,9 @@
+## Set STORAGE POOL
+
+```bash
+STORAGE_POOL=local-lvm
+```
+
 ## Debian
 ```bash
 apt install libguestfs-tools -y
@@ -8,10 +14,10 @@ CODE=trixie
 wget https://cloud.debian.org/images/cloud/$CODE-backports/daily/latest/debian-$VER-backports-generic-$ARCH-daily.qcow2
 virt-customize -a debian-$VER-backports-generic-$ARCH-daily.qcow2 --install qemu-guest-agent
 qm create 900$VER --name "Cloudinit-D$VER" --memory 2048 --balloon 0 --cores 1 --net0 virtio,bridge=vmbr0 --bios ovmf --machine q35 --ostype l26
-qm importdisk 900$VER debian-$VER-backports-generic-amd64-daily.qcow2 local-lvm
-qm set 900$VER --virtio0 local-lvm:vm-900$VER-disk-0
-qm set 900$VER --efidisk0 local-lvm:0,format=raw,efitype=4m,pre-enrolled-keys=0
-qm set 900$VER --ide2 local-lvm:cloudinit
+qm importdisk 900$VER debian-$VER-backports-generic-amd64-daily.qcow2 $STORAGE_POOL
+qm set 900$VER --virtio0 $STORAGE_POOL:vm-900$VER-disk-0
+qm set 900$VER --efidisk0 $STORAGE_POOL:0,format=raw,efitype=4m,pre-enrolled-keys=0
+qm set 900$VER --ide2 $STORAGE_POOL:cloudinit
 qm set 900$VER --ciuser debian --cipassword changeme --ipconfig0 ip=dhcp,ip6=auto --ciupgrade 1
 qm set 900$VER --serial0 socket --vga serial0
 qm set 900$VER --boot c --bootdisk virtio0
@@ -32,10 +38,10 @@ CODE=noble
 wget https://cloud-images.ubuntu.com/$CODE/current/$CODE-server-cloudimg-$ARCH.img
 virt-customize -a $CODE-server-cloudimg-$ARCH.img --install qemu-guest-agent
 qm create 900$VER --name "Cloudinit-U$VER" --memory 2048 --balloon 0 --cores 1 --net0 virtio,bridge=vmbr0 --bios ovmf --machine q35 --ostype l26
-qm importdisk 900$VER $CODE-server-cloudimg-$ARCH.img local-lvm
-qm set 900$VER --virtio0 local-lvm:vm-900$VER-disk-0
-qm set 900$VER --efidisk0 local-lvm:0,format=raw,efitype=4m,pre-enrolled-keys=0
-qm set 900$VER --ide2 local-lvm:cloudinit
+qm importdisk 900$VER $CODE-server-cloudimg-$ARCH.img $STORAGE_POOL
+qm set 900$VER --virtio0 $STORAGE_POOL:vm-900$VER-disk-0
+qm set 900$VER --efidisk0 $STORAGE_POOL:0,format=raw,efitype=4m,pre-enrolled-keys=0
+qm set 900$VER --ide2 $STORAGE_POOL:cloudinit
 qm set 900$VER --ciuser ubuntu --cipassword changeme --ipconfig0 ip=dhcp,ip6=auto --ciupgrade 1
 qm set 900$VER --serial0 socket --vga serial0
 qm set 900$VER --boot c --bootdisk virtio0
